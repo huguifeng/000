@@ -5,7 +5,7 @@ php:
 script: phpunit -v
 before_script:
   - composer install
-  - cd tests
+ 
 env:
  global:
    - GH_REF: git@github.com:huguifeng/999.git
