@@ -6,7 +6,7 @@ php:
 
 # S: Build Lifecycle
 
-script: phpunit -v
+script: phpunit tests/BookTest.php
 
 
 env:
