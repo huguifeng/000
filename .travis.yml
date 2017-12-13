@@ -1,0 +1,14 @@
+language: php
+php:
+  - 5.4
+  - 7.0
+  - 5.6
+
+# S: Build Lifecycle
+
+script: phpunit -v
+
+
+env:
+ global:
+   - GH_REF: git@github.com:huguifeng/999.git
