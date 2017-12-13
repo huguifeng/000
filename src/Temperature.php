@@ -12,9 +12,9 @@ class Temperature
     public function average()
     {
         $total = 0;
-        for ($i=0; $i<3; $i++) {
+        for ($i=0; $i<4; $i++) {
             $total += $this->service->readTemp();
         }
-        return $total/3;
+        return $total/4;
     }
 }

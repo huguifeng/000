@@ -13,11 +13,11 @@ class TemperatureTest extends TestCase
     {
         $service = Mockery::mock('service');
         $service->shouldReceive('readTemp')
-            ->times(3)
-            ->andReturn(10, 12, 14);
+            ->times(4)
+            ->andReturn(15, 12, 15, 18);
 
         $temperature = new Temperature($service);
 
-        $this->assertEquals(12, $temperature->average());
+        $this->assertEquals(15, $temperature->average());
     }
 }
