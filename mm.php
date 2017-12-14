@@ -3,10 +3,12 @@ class a
 {
 	public function aa()
 	{
-		echo "ceshi";
+		$a = "哈哈";
+		echo $a;
 	}
-	public function aa()
+	public function bb()
 	{
-		echo "ceshi ";
+		$a = "哈哈";
+		echo $a;
 	}
 }
