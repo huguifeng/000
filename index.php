@@ -1,2 +1,2 @@
 <?php
-echo "this is index";
+echo "不写配置按照默认配置来吗";
