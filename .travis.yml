@@ -13,4 +13,4 @@ fast_finish: true
 
 env:
  global:
-   - GH_REF: git@github.com:huguifeng/999.git
+   - GH_REF: git@github.com:huguifeng/000.git
