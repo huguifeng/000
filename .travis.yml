@@ -11,6 +11,7 @@ before_script:
     - php: 5.6
     - php: hhvm
   fast_finish: true
+  
 env:
  global:
    - GH_REF: git@github.com:huguifeng/999.git
