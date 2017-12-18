@@ -1,12 +1,16 @@
 language: php
 php:
   - 7.0
- 
+  - 5.6
 script: phpunit -v
 before_script:
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
- 
+allow_failures:
+  - php: 5.6
+  - php: hhvm
+fast_finish: true
+
 env:
  global:
    - GH_REF: git@github.com:huguifeng/999.git
